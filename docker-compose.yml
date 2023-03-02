@@ -1,0 +1,8 @@
+services:
+  cassdoor:
+    image: casbin/casdoor
+    container_name: sso
+    ports:
+      - 8100:8000
+    volumes:
+      - ./casdoor.conf:/conf/app.conf

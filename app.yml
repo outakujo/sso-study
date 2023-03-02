@@ -1,0 +1,10 @@
+server:
+  port: 8901
+casdoor:
+  endpoint: http://localhost:8100
+  clientId: d7c603b344c6b7af65b4
+  clientSecret: 21daa6519ec1f02e698a54262cd5f2829f0916b3
+  certificate: cert
+  organizationName: takujo
+  applicationName: app1
+  redirectUri: http://localhost:8100/login/oauth/authorize?client_id=d7c603b344c6b7af65b4&response_type=code&redirect_uri=http://localhost:8901/auth/casdoor&scope=read&state=casdoor
